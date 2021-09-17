@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Sensor</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="css/gateway.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <form class="sensorForm" method="post" action="#">
+            <h2>Create Sensor</h2>  
+            <label for = "sensorName">Sensor Name :</label>
+            <input type="text" name="sensorName" id="sensorName"/>  
+             <label for = "sensorType">Sensor Type :</label>
+            <input type="text" name="sensorType" id="sensorType"/> 
+             <label for = "gatewayName">Gateway Id :</label>
+            <input type="text" name="gatewayId" id="gatewayId"/>  
+              <input type="submit" name="create" id="create" value="Create Sensor"/>              
+        </form>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.1.17.0.min.js"></script>
+<script type="text/javascript" src="js/sensor.js"></script>
+
+</script>
+</html>
